@@ -8,7 +8,9 @@ spring:
       version: 4.0.2
   data:
     mongodb:
-      database: test
+      username: usr-catalog-mongo
+      password: pwd-catalog-mongo
+      database: catalog-dev-mongo
       port: 27017
 
 eureka:
