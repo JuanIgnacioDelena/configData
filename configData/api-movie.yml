@@ -20,6 +20,10 @@ spring:
     generate-ddl: true
     show-sql: true
 
+info:
+  application:
+    name: api-movie
+
 eureka:
   instance:
     hostname: localhost
